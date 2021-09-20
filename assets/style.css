@@ -13,7 +13,6 @@ header {
     overflow: hidden;
     background-color: cornflowerblue;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
     
 }
@@ -22,15 +21,17 @@ header {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20 px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 .bar a:hover {
     background-color: teal;
     color: black;
 }
-.intro {
-    display: flex;
+
+.sidebar {
+    float: left;
+    width: 75%;
 }
 
 .work {
