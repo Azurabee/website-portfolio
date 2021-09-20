@@ -1,35 +1,44 @@
 * {
     box-sizing: border-box;
 }
-
-body {
-    font-family: Arial;
-    margin:0;
-}
-
-Header {
-    padding: 60 px;
+header {
+    background: blue;
+    padding: 20px;
     text-align: center;
-    background: whitesmoke;
+    color: white;
+    font-size: 30px;
+    display: flex;
+}
+.bar {
+    overflow: hidden;
+    background-color: cornflowerblue;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+}
+.bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20 px;
+    text-decoration: none;
+}
+.bar a:hover {
+    background-color: teal;
     color: black;
 }
-
-.headers {
-    width: 200px;
-    height: 100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.intro {
+    display: flex;
 }
+
 .work {
     flex: 1 0 0;
     padding: 10px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
-}
-body {
-    display: flex;
-    margin-top: 2%;
-    flex-wrap: wrap;
 }
 .selfie {
     width: 25%;
