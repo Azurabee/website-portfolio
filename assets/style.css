@@ -1,3 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin:0;
+}
+
+Header {
+    padding: 60 px;
+    text-align: center;
+    background: whitesmoke;
+    color: black;
+}
+
 .headers {
     width: 200px;
     height: 100px;
@@ -9,4 +25,17 @@
     text-align: center;
     border-style: solid;
     border-width: 1px;
+}
+body {
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+.selfie {
+    width: 25%;
+    height: auto;
+}
+.UW {
+    width: 25%
+    height: 200px;
 }
